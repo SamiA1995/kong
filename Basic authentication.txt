@@ -1,1 +1,3 @@
 curl -i http://192.168.1.250/<route> -H "authorization: Basic <base64 encoded (username:password)>"
+
+curl -i http://192.168.1.250/<route> -H "apikey: <key>"
